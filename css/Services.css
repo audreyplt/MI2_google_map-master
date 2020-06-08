@@ -1,0 +1,37 @@
+section {
+    position: relative;
+    width: 80%;
+    background: white;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px black;
+    opacity: 0.9;
+}
+
+#mapid {
+    height: 600px;
+}
+
+
+/*Permet l'animation du cercle*/
+.pulse {
+    animation: pulsate 1s ease-out;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0
+}
+
+@keyframes pulsate {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+
+h4, i {
+    display: inline;
+}
+i {
+    padding-top: 5px;
+    padding-right: 10px;
+    float:right;
+}
